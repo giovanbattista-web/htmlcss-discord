@@ -10,13 +10,13 @@ header {
        }
 
 .container {
-          max-width : 1000px;
+          max-width : 2000px;
           display : flex;
           margin: 0 auto;
            }
 
 .container-small {
-                  max-width : 800px;
+                  max-width : 1800px;
                   margin : 0 auto;
                   display: flex;
 }
@@ -98,4 +98,18 @@ header {
 
 .rosa-scuro {
              background-color: rosybrown;
+}
+
+.white {
+        border: 1px solid black;
+}
+
+.bottone {
+         border : 1px solid black;
+         padding: 5px;
+         border-radius:25%;
+}
+
+.color-white {
+              color: white;
 }
