@@ -5,7 +5,7 @@
     }
     
     header {
-        background-color: lightblue;
+        background-color:lightskyblue;
         padding : 10px 0px;
            }
     
@@ -42,15 +42,13 @@
              border : 1px dashed black;
     }
     
-    .arancione  {
-                 background-color: orange;
-    }
     
     .testo-sinistra {
                     text-align: left;
     }
     
     .testo-centrale{
+                    color : white;
                     text-align: center;
     }
     
@@ -154,4 +152,10 @@
     
     .between {
             justify-content:space-between;
+    }
+
+    .bottone {
+              background-color: white;
+              padding: 5px;
+              border-radius: 25%;
     }
