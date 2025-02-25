@@ -36,6 +36,7 @@
     
     .contenuto {
                 padding : 15px;
+                
     }
     
     .bordo {
@@ -48,16 +49,11 @@
     }
     
     .testo-centrale{
-                    color : white;
                     text-align: center;
     }
     
     .testo-destra {
                    text-align: right;
-    }
-    
-    .fucsia {
-            background-color: fuchsia;
     }
     
     .azzurro {
@@ -69,7 +65,7 @@
     }
     
     .blu {
-          background-color:blue;
+          background-size: contain;
           padding : 15px 0px;
     }
     
@@ -92,6 +88,7 @@
     }
     
     .colonna_grande {
+                   
                    width : 70%;
     }
     
@@ -159,3 +156,9 @@
               padding: 5px;
               border-radius: 25%;
     }
+
+    .bianco {
+             color:white;
+    }
+
+    
