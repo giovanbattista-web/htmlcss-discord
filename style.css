@@ -56,16 +56,8 @@
                    text-align: right;
     }
     
-    .azzurro {
-              background-color: lightskyblue;
-    }
-    
-    .rosa {
-            background-color: pink;
-    }
-    
     .blu {
-          background-size: contain;
+          
           padding : 15px 0px;
     }
     
@@ -108,9 +100,6 @@
                      height:500px;
     }
     
-    .verde {
-            background-color: green;
-    }
     
     footer {
             background-color: black;
