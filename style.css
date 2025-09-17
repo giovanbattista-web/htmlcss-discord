@@ -1,153 +1,240 @@
-*{
-        margin : 0;
+* {
+        margin: 0;
         padding: 0;
-        box-sizing : border-box;
-    }
-    
-    header {
-        background-color:lightskyblue;
-        padding : 10px 0px;
-           }
-    
-    .container {
-              max-width : 1000px;
-              margin: 0 auto;
-              display: flex;
-               }
-    
-    .col_est{
-             width: 20%;
-                    
-            }
-    
-    .col_centr {
-                width: 60%;
-               }
-    
-    .container-small {
-                      max-width : 800px;
-                      margin : 0 auto;
-                      
-    }
-    
-    .altezza {
-            height : 250px;
-    }
-    
-    .contenuto {
-                padding : 15px;
-                
-    }
-    
-    .bordo {
-             border : 1px dashed black;
-    }
-    
-    
-    .testo-sinistra {
-                    text-align: left;
-    }
-    
-    .testo-centrale{
-                    text-align: center;
-    }
-    
-    .testo-destra {
-                   text-align: right;
-    }
-    
-    .blu {
-          background-size:contain;
-          
-    }
-    
-    header ul {
-             list-style-type:none;
-            
-    }
-    
-    header ul li {
-                 display: inline-block;
-                 
-    }
-    
-    .padding {
-             padding : 15px 0;
-    }
-    
-    .margine {
-            margin : 10px auto ;
-    }
-    
-    .colonna_grande {
-                   
-                   width : 70%;
-    }
-    
-    .colonna_piccola {
-                      width: 30%;
-    }
-    
-    .grigio {
-            background-color: grey;
-    }
-    
-    .colonna_full {
-            width : 100%;
-    }
-    
-    .altezza_doppia {
-                     height:500px;
-    }
-    
-    
-    footer {
-            background-color: black;
-    }
-    
-    .footer_alto {
-                  border_bottom: 1px solid white;
-                  padding: 5px 0 15px 0;
-                 }
-    
-    .flex {
-            display : flex;
-    }
-    
-    .colonna_25 {
-                 width : 25%;
-    }
-    
-    .footer_basso{
-                  padding-top : 30px;
-    }
-    
-    .logo_footer, .button_footer {
-                                  border: 1px solid black;
-                                  padding : 5px;
-    }
-    
-    .between {
-            justify-content:space-between;
-    }
+        box-sizing: border-box;
+}
 
-    .bottone {
-              
-              padding: 5px;
-              border-radius: 25%;
-    }
+header {
+        background-color: #255EE9;
+        padding: 10px 0px;
+}
 
-    .bg_white {
-               background-color: white;
-    }
+.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+}
 
-    .bianco {
-             color:white;
-    }
+.col_external {
+        width: 20%;
+}
 
-    .lightskyblue {
-                 background-color: lightskyblue;
-                 
-    }
+.col_central {
+        width: 60%;
+}
 
-    
+.container_small {
+        max-width: 600px;
+        margin: 0 auto;
+}
+
+.central_grey_container {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 15px;
+}
+
+.content {
+        padding: 60px;
+}
+
+.text_center {
+        text-align: center;
+}
+
+.text_right {
+        text-align: right;
+}
+
+.blue {
+        background-image: url('../img/jumbo.png');
+        background-size: cover;
+        /* POTREBBE NON ESSERE NECESSARIO SICCOME C'E' LA PROPRIETA' COVER 
+      */
+        background-repeat: no-repeat;
+}
+
+header ul {
+        list-style-type: none;
+}
+
+header ul li {
+        display: inline-block;
+        margin: 5px 15px;
+}
+
+header ul li a {
+        color: white;
+        text-decoration: none;
+}
+
+.padding {
+        padding: 20px 0;
+}
+
+.padding_top_5 {
+        padding-top: 5px;
+}
+
+.margin {
+        margin: 20px auto;
+}
+
+.large_column {
+        width: 70%;
+}
+
+.small_column {
+        width: 30%;
+}
+
+.grey {
+        background-color: rgba(246, 246, 246, 255);
+}
+
+.margin_top_5 {
+        margin-top: 5px;
+}
+
+.column_full {
+        width: 100%;
+}
+
+footer {
+        background-color: black;
+}
+
+#footer_top {
+        border-bottom: 1px solid white;
+        padding: 5px 0 15px 0;
+}
+
+.flex {
+        display: flex;
+}
+
+.column_25 {
+        width: 25%;
+}
+
+.footer_bottom {
+        padding-top: 30px;
+}
+
+.logo_footer,
+.button_footer {
+        padding: 5px;
+}
+
+.between {
+        justify-content: space-between;
+}
+
+.button {
+        padding: 10px 20px;
+        border-radius: 50px;
+        text-decoration: none;
+}
+
+.white_button {
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+}
+
+.dark_blue_button {
+        border: 1px solid rgb(0, 0, 54);
+        background-color: rgb(0, 0, 54);
+        color: white;
+}
+
+.violet_button {
+        border: 1px solid #7289da;
+        background-color: #7289da;
+        color: white;
+}
+
+.white {
+        color: white;
+}
+
+.align_items_center {
+        align-items: center;
+}
+
+h2 {
+        font-size: 40px;
+}
+
+.mx_5 {
+        margin: 0px 5px;
+}
+
+.my_50 {
+        margin: 50px auto;
+}
+
+.margin_right_5 {
+        margin-right: 5px;
+}
+
+.img_full {
+        width: 100%;
+}
+
+.img_sm {
+        width: 20px;
+}
+
+.content p {
+        font-size: 18px;
+        line-height: 1.5;
+}
+
+.py-50 {
+        padding: 50px 0;
+}
+
+body {
+        font-family: 'Lato';
+}
+
+.image {
+        width: 40%;
+        height: 44px;
+        background-image: url(./img/stars.svg);
+        background-size: cover;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+}
+
+#btn_grey {
+        padding: 8px 10px;
+}
+
+footer ul {
+        list-style-type: none;
+}
+
+footer ul li {
+        margin: 20px 0;
+}
+
+footer ul li a {
+        color: white;
+        text-decoration: none;
+}
+
+.text_white {
+        color: white;
+}
+
+.margin_top_10 {
+        margin-top: 10px;
+}
+
+.violet {
+        color: #7289da;
+}
